@@ -9,7 +9,7 @@
     "content_scripts": [
       {
         "matches": [
-          "https://benedu.co.kr/*"
+          "*://benedu.co.kr/*"
         ],
         "js": [
           "background.js"
